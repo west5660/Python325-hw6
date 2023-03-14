@@ -1,0 +1,85 @@
+div{
+    display: inline-block;
+    border: 8px solid #14dca6;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    background-color: #b3d4fc;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    margin: 20px;
+}
+.a1{display: inline-block;
+    border: 8px solid #14dca6;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    background-color: #b3d4fc;
+    text-align: center;
+    box-shadow: inset 8px 8px 8px rgba(14, 11, 9, 0.5);
+}
+
+.a1:hover{
+    border:8px solid #e1d6d6;
+    border-radius: 18px;
+    box-shadow: 2px 2px 15px 7px red;
+    background-color: cornflowerblue;
+    color: white;
+    transition: 1s;
+}
+/*.a1 h1{*/
+/*    opacity: 1;*/
+/*    transition: 1s;*/
+/*}*/
+/*.a1 h1:hover{*/
+/*    opacity: 0;*/
+/*}*/
+/*.a1 p{*/
+/*    opacity: 1;*/
+/*    transition: 1s;*/
+/*}*/
+/*.a1 p:hover{*/
+/*    opacity: 0;*/
+
+.a2{display: inline-block;
+    border: 8px solid #14dca6;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    background-color: #b3d4fc;
+    text-align: center;
+    box-shadow: inset 8px 8px 8px rgba(154, 147, 140, 0.5);
+}
+
+.a2:hover {
+    border: 8px solid #b62929;
+    border-radius: 18px;
+    box-shadow: 2px 2px 15px 7px #100f0f;
+    background-color: #417c4e;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.a3{display: inline-block;
+    border: 8px solid #14dca6;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    background-color: #b3d4fc;
+    text-align: center;
+    box-shadow: inset 8px 8px 8px rgba(154, 147, 140, 0.5);
+}
+
+.a3:hover{
+    border:8px solid #100f0f;
+    border-radius: 18px;
+    box-shadow: 2px 2px 15px 7px #0066ff;
+    background-color: rgba(172, 13, 225, 0.62);
+    color: #ffffff;
+    transition: 1s;
+}
